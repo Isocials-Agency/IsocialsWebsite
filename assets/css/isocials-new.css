@@ -1,0 +1,26 @@
+.isocials-logo{
+    width: 200px;
+
+}
+
+
+.plan-icon{
+    font-size: 94px;
+    color: #F37043;
+}
+
+.footer-logo-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+.footer-logo{
+    width: 200px;
+}
+
+.contact-info-comp{
+    display: flex;
+    align-items: center;
+}
