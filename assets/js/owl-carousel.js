@@ -2308,6 +2308,8 @@
 		item.attr('data-video', url);
 
 		this.thumbnail(target, this._videos[url]);
+		console.log("try here ")
+
 	};
 
 	/**

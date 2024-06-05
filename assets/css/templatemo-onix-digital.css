@@ -1021,6 +1021,7 @@ Services Style
 .our-services .item {
   text-align: center;
   margin: 15px;
+  height: 380px;
   border-radius: 20px;
   background-color: #fff;
   padding: 30px;
@@ -1100,7 +1101,7 @@ About
 }
 
 .about-us .fact-item .count-digit {
-  font-size: 48px;
+  font-size: 35px;
   font-weight: 700;
   color: #2a2a2a;
   margin-top: 5px;
@@ -1340,10 +1341,11 @@ Pricing
   text-align: center;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
   border-radius: 45px;
+  height: 100%;
 }
 
 .pricing-tables .item h4 {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 700;
   color: #2a2a2a;
 }
@@ -1371,7 +1373,7 @@ Pricing
 
 .pricing-tables .item ul li {
   display: block;
-  font-size: 15px;
+  font-size: 17px;
   color: #7a7a7a;
   margin-bottom: 20px;
 }
