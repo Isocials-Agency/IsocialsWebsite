@@ -1,3 +1,7 @@
+html{
+
+    font-family: 'Poppins', sans-serif;
+}
 .isocials-logo{
     width: 200px;
 
@@ -7,6 +11,9 @@
 .plan-icon{
     font-size: 94px;
     color: #F37043;
+    width: 94px;
+    height: 94px;
+    margin-top: 10px;
 }
 
 .footer-logo-main{
@@ -23,4 +30,21 @@
 .contact-info-comp{
     display: flex;
     align-items: center;
+}
+
+.projects-left-imgs{
+    overflow: hidden; 
+    background-color: #8e8e8e;
+    border: 1px solid #424242;
+    width: 856px; 
+    height: 675px;
+}
+
+.border-radius{
+    border-radius: 23px;
+
+}
+.projects-right-imgs{
+    width: 416px; 
+    height: 146px;
 }
