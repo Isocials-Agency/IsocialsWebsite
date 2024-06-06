@@ -657,7 +657,7 @@ header
   }
   .header-area {
     background-color: #f7f7f7;
-    padding: 0px 15px;
+    padding: 0px ;
     height: 100px;
     box-shadow: none;
     text-align: center;
@@ -2018,9 +2018,13 @@ responsive
 }
 
 @media (max-width: 767px) {
+
+  
   .main-banner .item .down-buttons {
     display: inline-block;
   }
+
+
   .main-banner .item .down-buttons .main-blue-button {
     margin-right: 0px;
     margin-bottom: 15px;
@@ -2055,4 +2059,6 @@ responsive
   .contact-us .info span {
     margin-bottom: 20px;
   }
+
+  
 }

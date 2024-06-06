@@ -15,6 +15,16 @@
     }
   });
 
+///dropdown disappear on scroll
+
+// window.addEventListener('scroll', function() {
+//   var dropdown = document.getElementById('dropDown');
+//   var icon = this.document.getElementById
+//   if (dropdown.style.display === 'block') {
+//       dropdown.style.display = 'none';
+//   }
+// });
+
 
 	$('.owl-banner').owlCarousel({
 		items:1,
@@ -94,6 +104,17 @@
       $('.header-area .nav').slideToggle(200);
     });
   }
+
+ 
+  $(window).on('scroll', function() {
+    var menuTrigger = $('.menu-trigger');
+    var dropdown = $('.header-area .nav');
+    if (menuTrigger.hasClass('active')) {
+        dropdown.slideUp(200);
+        menuTrigger.removeClass('active');
+   
+    }
+});
 
 
   // Menu elevator animation
@@ -177,6 +198,7 @@
     });
   }
 
+ 
 
 
 
