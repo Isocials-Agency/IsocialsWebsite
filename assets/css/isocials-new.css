@@ -48,3 +48,9 @@ html{
     width: 416px; 
     height: 146px;
 }
+@media (max-width: 600px) {
+    .projects-left-imgs {
+        width: 400px;
+        
+    }
+}
