@@ -883,7 +883,7 @@ Banner Style
 
 .main-banner:before {
   content: '';
-  background-image: url(../images/banner-right-image.png);
+  background-image: url(https://isocials-website.s3.amazonaws.com/IsocialsImages/pic2.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
